@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Temperature Conversion App</string>
+    <string name="celsius">Celsius</string>
+    <string name="celsius_hint">C</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="fahrenheit_hint">F</string>
+    <string name="subtitle">Convert C to F and back!</string>
+    <string name="subtext">Enter a temperature and click the button to convert the temperature to Celsius or Fahrenheit.</string>
+    <string name="clear">Clear</string>
+
+    <string name="author">Dion Potkamp v1.0.0</string>
+</resources>
