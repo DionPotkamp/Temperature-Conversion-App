@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Temperatuur Conversie-app</string>
+    <string name="subtitle">Converteer C naar F en terug!</string>
+    <string name="subtext">Geef een temperatuur in op het C of F veld, en je bent klaar!</string>
+    <string name="clear">Legen</string>
+</resources>
