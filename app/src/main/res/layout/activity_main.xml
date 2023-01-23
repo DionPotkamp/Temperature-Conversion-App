@@ -28,7 +28,8 @@
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textCelsius" />
+        app:layout_constraintTop_toBottomOf="@+id/textCelsius"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/textCelsius"
@@ -40,7 +41,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TextSubtitle" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textFahrenheit"
@@ -65,7 +66,8 @@
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="@+id/textFahrenheit"
         app:layout_constraintStart_toStartOf="@+id/textFahrenheit"
-        app:layout_constraintTop_toBottomOf="@+id/textFahrenheit" />
+        app:layout_constraintTop_toBottomOf="@+id/textFahrenheit"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/ClearButton"
@@ -91,5 +93,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/subtext"
+        android:textAlignment="center"
+        android:textColor="@android:color/secondary_text_dark_nodisable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextSubtitle" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
